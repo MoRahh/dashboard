@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: aquamarine;
+}
+
 /* Sidebar */
 
 li {
@@ -58,8 +62,10 @@ nav ul li:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
     padding: 20px;
+    height: 20vh;
+    background-color: white;
+    width: 100vw;
 }
 
 .header-right {
@@ -115,4 +121,65 @@ nav ul li:hover {
     border: none;
     background-color: rgb(77, 156, 77);
     font-weight: 700;
+}
+
+.searchbar button:hover {
+    cursor: pointer;
+    background-color: rgb(77,156,77,.75);
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column ;
+}
+
+.user img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 2em;
+}
+
+.info button {
+    padding: 15px 40px;
+    margin-left: 30px;
+    border-radius: 5em;
+    border: none;
+    background-color: rgb(9, 112, 112);
+    color: white;
+}
+
+.info button:hover {
+    cursor: pointer;
+    background-color: rgb(9, 112, 112,.75);
+}
+
+.hi {
+    font-size: 14px;
 }
